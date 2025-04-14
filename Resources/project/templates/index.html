@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UK Accident Dashboard</title>
+    <style>
+        iframe {
+            width: 100%;
+            height: 500px;
+            border: none;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Interactive UK Road Accident Graph</h2>
+
+    <label>Month:</label>
+    <select id="month">
+        <option>All</option><option>January</option><option>February</option><option>March</option><option>April</option>
+        <option>May</option><option>June</option><option>July</option><option>August</option>
+        <option>September</option><option>October</option><option>November</option><option>December</option>
+    </select>
+
+    <label>Severity:</label>
+    <select id="severity">
+        <option>All</option><option>Fatal</option><option>Serious</option><option>Slight</option>
+    </select>
+
+    <label>Day:</label>
+    <select id="day">
+        <option>All</option><option>Monday</option><option>Tuesday</option><option>Wednesday</option><option>Thursday</option>
+        <option>Friday</option><option>Saturday</option><option>Sunday</option>
+    </select>
+
+    <label>Weather:</label>
+    <select id="weather">
+        <option>All</option><option>Fine no high winds</option><option>Raining no high winds</option>
+        <option>Snowing no high winds</option><option>Fine + high winds</option><option>Raining + high winds</option>
+    </select>
+
+    <label>Light:</label>
+    <select id="light">
+        <option>All</option><option>Daylight</option><option>Darkness - lights lit</option><option>Darkness - lights unlit</option>
+    </select>
+
+    <label>Road Surface:</label>
+    <select id="surface">
+        <option>All</option><option>Dry</option><option>Wet/Damp</option><option>Snow</option><option>Frost/Ice</option>
+    </select>
+
+    <label>Area:</label>
+    <select id="area">
+        <option>All</option><option>Urban</option><option>Rural</option>
+    </select>
+
+    <button onclick="updatePlot()">Generate Graph</button>
+
+    <iframe id="plot-frame" src="/plot"></iframe>
+
+    <script>
+        function updatePlot() {
+            const filters = [
+                "month", "severity", "day", "weather", "light", "surface", "area"
+            ];
+            let query = filters.map(id => {
+                const val = document.getElementById(id).value;
+                return `${id}=${encodeURIComponent(val)}`;
+            }).join("&");
+
+            const url = `/plot?${query}&t=${Date.now()}`;
+            document.getElementById("plot-frame").src = url;
+        }
+    </script>
+</body>
+</html>
