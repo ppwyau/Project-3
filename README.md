@@ -74,4 +74,7 @@ In our group project analyzing road accidents in the UK, we have made several ef
 5.	Temporal Constraints: The analysis is limited to 2021 and may not reflect long-term trends.
 6.	External Factors: Factors like human behavior or vehicle maintenance are not included.
 
+# References:
+- https://www.kaggle.com/datasets/xavierberge/road-accident-dataset?
+- Chatgbt
 
