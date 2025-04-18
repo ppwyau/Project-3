@@ -48,3 +48,21 @@ At least one paragraph summarizing efforts for ethical considerations made in th
 References for the data source(s)
 
 References for any code used that is not your own
+
+# Efforts for ethical considerations made in the project:
+In our group project analyzing road accidents in the UK, we have made several efforts to address ethical considerations to ensure responsible handling of data. 
+•	Firstly, we prioritize the privacy and confidentiality of sensitive information, ensuring that personally identifiable data, such as accident victims' details, is not included in the dataset or visualizations. 
+•	We aim to focus solely on anonymized data, such as accident severity, road conditions, and contributing factors. 
+•	Additionally, we emphasize the responsible use of data to avoid perpetuating harmful stereotypes, ensuring that our analysis does not unfairly stigmatize certain regions or groups. 
+•	Our visualizations will aim to present clear, objective insights that can guide policymakers and road safety professionals without misrepresenting or oversimplifying complex factors involved in road accidents. 
+•	Furthermore, we are committed to transparent and accurate reporting of our findings, acknowledging the limitations of our analysis and ensuring that our recommendations are based on robust and unbiased data analysis.
+
+# Data analysis limitations:
+1.	Data Completeness: Some data may be missing or incomplete, affecting accuracy.
+2.	Data Quality: Inconsistent reporting may impact reliability.
+3.	Bias in Reporting: Not all accidents are reported, leading to potential underrepresentation.
+4.	Geographic Scope: The data only covers the UK, so regional differences may not be captured.
+5.	Temporal Constraints: The analysis is limited to 2021 and may not reflect long-term trends.
+6.	External Factors: Factors like human behavior or vehicle maintenance are not included.
+
+
