@@ -50,7 +50,7 @@ References for the data source(s)
 References for any code used that is not your own
 
 # Instructions on how to use and interact with the project:
-# Launch the Dashboard: Open the interactive dashboard by running the Python script  applicable).
+# Launch the Dashboard: Open the interactive dashboard by running the Python script.
 -  Use Filters: Use the dropdown menus and checkboxes to filter the data by month, weather conditions, urban or rural areas, and other available options.
 -  Explore Visualizations: View different charts like bar graphs, scatter plots, and heatmaps to analyze accident patterns.
 -  Hover for Details: Hover over data points on graphs to see detailed information (e.g., number of accidents, severity).
