@@ -51,20 +51,20 @@ References for any code used that is not your own
 
 # Instructions on how to use and interact with the project:
 # Launch the Dashboard: Open the interactive dashboard by running the Python script  applicable).
-•  Use Filters: Use the dropdown menus and checkboxes to filter the data by month, weather conditions, urban or rural areas, and other available options.
-•  Explore Visualizations: View different charts like bar graphs, scatter plots, and heatmaps to analyze accident patterns.
-•  Hover for Details: Hover over data points on graphs to see detailed information (e.g., number of accidents, severity).
-•  Interpret Responsibly: Use the insights for educational or policy purposes, keeping in mind the limitations noted in the project.
-•  Technical Requirements: Make sure you have the required libraries installed (e.g., Pandas, hvPlot, Panel, Chrome browser). Use a Jupyter Notebook or Python environment to run the code if running locally.
+-  Use Filters: Use the dropdown menus and checkboxes to filter the data by month, weather conditions, urban or rural areas, and other available options.
+-  Explore Visualizations: View different charts like bar graphs, scatter plots, and heatmaps to analyze accident patterns.
+-  Hover for Details: Hover over data points on graphs to see detailed information (e.g., number of accidents, severity).
+-  Interpret Responsibly: Use the insights for educational or policy purposes, keeping in mind the limitations noted in the project.
+-  Technical Requirements: Make sure you have the required libraries installed (e.g., Pandas, hvPlot, Panel, Chrome browser). Use a Jupyter Notebook or Python environment to run the code if running locally.
 
 
 # Efforts for ethical considerations made in the project:
 In our group project analyzing road accidents in the UK, we have made several efforts to address ethical considerations to ensure responsible handling of data. 
-•	Firstly, we prioritize the privacy and confidentiality of sensitive information, ensuring that personally identifiable data, such as accident victims' details, is not included in the dataset or visualizations. 
-•	We aim to focus solely on anonymized data, such as accident severity, road conditions, and contributing factors. 
-•	Additionally, we emphasize the responsible use of data to avoid perpetuating harmful stereotypes, ensuring that our analysis does not unfairly stigmatize certain regions or groups. 
-•	Our visualizations will aim to present clear, objective insights that can guide policymakers and road safety professionals without misrepresenting or oversimplifying complex factors involved in road accidents. 
-•	Furthermore, we are committed to transparent and accurate reporting of our findings, acknowledging the limitations of our analysis and ensuring that our recommendations are based on robust and unbiased data analysis.
+- Firstly, we prioritize the privacy and confidentiality of sensitive information, ensuring that personally identifiable data, such as accident victims' details, is not included in the dataset or visualizations. 
+-	We aim to focus solely on anonymized data, such as accident severity, road conditions, and contributing factors. 
+-	Additionally, we emphasize the responsible use of data to avoid perpetuating harmful stereotypes, ensuring that our analysis does not unfairly stigmatize certain regions or groups. 
+-	Our visualizations will aim to present clear, objective insights that can guide policymakers and road safety professionals without misrepresenting or oversimplifying complex factors involved in road accidents. 
+-	Furthermore, we are committed to transparent and accurate reporting of our findings, acknowledging the limitations of our analysis and ensuring that our recommendations are based on robust and unbiased data analysis.
 
 # Data analysis limitations:
 1.	Data Completeness: Some data may be missing or incomplete, affecting accuracy.
