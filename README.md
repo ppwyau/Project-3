@@ -49,6 +49,15 @@ References for the data source(s)
 
 References for any code used that is not your own
 
+# Instructions on how to use and interact with the project:
+# Launch the Dashboard: Open the interactive dashboard by running the Python script  applicable).
+•  Use Filters: Use the dropdown menus and checkboxes to filter the data by month, weather conditions, urban or rural areas, and other available options.
+•  Explore Visualizations: View different charts like bar graphs, scatter plots, and heatmaps to analyze accident patterns.
+•  Hover for Details: Hover over data points on graphs to see detailed information (e.g., number of accidents, severity).
+•  Interpret Responsibly: Use the insights for educational or policy purposes, keeping in mind the limitations noted in the project.
+•  Technical Requirements: Make sure you have the required libraries installed (e.g., Pandas, hvPlot, Panel, Chrome browser). Use a Jupyter Notebook or Python environment to run the code if running locally.
+
+
 # Efforts for ethical considerations made in the project:
 In our group project analyzing road accidents in the UK, we have made several efforts to address ethical considerations to ensure responsible handling of data. 
 •	Firstly, we prioritize the privacy and confidentiality of sensitive information, ensuring that personally identifiable data, such as accident victims' details, is not included in the dataset or visualizations. 
