@@ -57,7 +57,7 @@ References for any code used that is not your own
 -  Hover for Details: Hover over data points on graphs to see detailed information (e.g., number of accidents, severity).
 -  Interpret Responsibly: Use the insights for educational or policy purposes, keeping in mind the limitations noted in the project.
 -  Technical Requirements: Make sure you have the required libraries installed (e.g., Pandas, hvPlot, Panel, Chrome browser). Use a Jupyter Notebook or Python environment to run the code if running locally.
--  Flask has been also created, index and plot html files to draw dashboards and python code to run it.
+-  Flask has been also created, index and plot html files to draw dashboards and python code to run it from app.py file.
 
 
 # Efforts for ethical considerations made in the project:
